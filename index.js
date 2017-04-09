@@ -80,6 +80,7 @@ module.exports = (function(){
 		shopPromises : require('./lib/shopPromises'),
 		NodeWrap : require('./lib/NodeWrap'),
 		serializeHook : require('./lib/serializeHook'),
+        session : require('./lib/shopify-ui-session'),
 		processHooks : processHooks,
 		instantPromise : instantPromise
 	};
