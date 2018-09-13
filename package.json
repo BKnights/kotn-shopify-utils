@@ -1,10 +1,14 @@
 {
   "name": "kotn-utils",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Generic Resources for Shopify Express projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BKnights/kotn-utils.git"
   },
   "author": "Brett Knights",
   "license": "ISC",
