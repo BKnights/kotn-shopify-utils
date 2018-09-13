@@ -4,7 +4,8 @@
   "description": "Generic Resources for Shopify Express projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm install shopify-node-api"
   },
   "author": "Brett Knights",
   "license": "ISC",
@@ -14,6 +15,6 @@
     "debug": "^3.1.0",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
-    "shopify-node-api": "github:bknights/shopify-node-api#limit_aware"
+    "shopify-node-api": "git+https://github.com/BKnights/shopify-node-api#limit_aware"
   }
 }
