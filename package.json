@@ -4,12 +4,11 @@
   "description": "Generic Resources for Shopify Express projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm install shopify-node-api"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brett Knights",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "bluebird": "^3.5.2",
     "body-parser": "^1.18.3",
     "debug": "^4.0.1",
