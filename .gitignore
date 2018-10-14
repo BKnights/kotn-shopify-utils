@@ -14,3 +14,4 @@ config.json
 /SubscriptionBox/testDPSRequest.js
 /SubscriptionBox/testDPSResponseHandler.js
 /errs.txt
+/package-lock.json
