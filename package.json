@@ -13,11 +13,11 @@
   "author": "Brett Knights",
   "license": "ISC",
   "peerDependencies": {
-    "bluebird": "^3.5.2",
-    "body-parser": "^1.18.3",
-    "debug": "^4.0.1",
-    "express": "^4.16.3",
-    "express-session": "^1.15.6",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.0",
+    "debug": "^4.1.0",
+    "express": "^4.16.0",
+    "express-session": "^1.15.0",
     "shopify-node-api": "^1.10.0"
   }
 }
