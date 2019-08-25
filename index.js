@@ -1,17 +1,8 @@
 module.exports = (function(){
-	var debug = require('debug')('kotn-base');
 	var Promise = require('bluebird');
-	var shopifyAPI = require('shopify-node-api');
-	var shopPromise = require('./lib/shopPromises')(shopifyAPI);
 
 	function instantPromise(data, fail){
-		return new Promise(function(resolve, reject){
-			if(fail){
-				reject(fail);
-				return;
-			}
-			resolve(data);
-		});
+		return fail ? Promise.reject(fail) : Promise.resolve(data);
 	}
 
 
