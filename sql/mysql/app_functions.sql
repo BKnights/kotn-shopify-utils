@@ -6,7 +6,7 @@ DELIMITER $$
 CREATE PROCEDURE get_shop_token (IN app_name TEXT, IN shop_name TEXT,IN token_val TEXT, IN scope_val TEXT) 
 MODIFIES SQL DATA
 BEGIN
---RETURNS TABLE(token text, isnew boolean) 
+-- RETURNS TABLE(token text, isnew boolean) 
 	DECLARE install_id, prev_id INTEGER;
 	DECLARE install_token, install_scope TEXT;
 
@@ -51,7 +51,7 @@ DELIMITER $$
 CREATE PROCEDURE check_shop_access (IN app_name TEXT, IN shop_name TEXT, IN scope_val TEXT) 
 READS SQL DATA
 BEGIN
---RETURNS TABLE(scope TEXT, need_auth boolean)
+-- RETURNS TABLE(scope TEXT, need_auth boolean)
 	DECLARE install_id, prev_id INTEGER;
 	DECLARE install_scope TEXT;
 	

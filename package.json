@@ -1,6 +1,6 @@
 {
   "name": "@kotn/shopify-utils",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Generic Resources for Shopify Express projects",
   "main": "index.js",
   "scripts": {
